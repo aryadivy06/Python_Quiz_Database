@@ -1,5 +1,5 @@
 import mysql.connector as my
-con = my.connect(host = "localhost",port="3306", user="root",password = "user_password",database="Quiz")
+con = my.connect(host = "localhost",port="3306", user="root",password = "@aryadivy06",database="Quiz")
 cur = con.cursor()
 login_status=False
 user_id=""
